@@ -1,6 +1,8 @@
 Mac Setup
 =========
 
+Mac setup instructions for development, hopefully turn into a script.
+
 System Preferences
 ------------------
 
