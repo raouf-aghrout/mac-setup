@@ -91,7 +91,10 @@ Software
 
 ### Brew
 - Brew Cask
-- Tree
+- tree
+- mr
+- maven
+- gradle
 
 ### Atom
 - Settings:
