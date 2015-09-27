@@ -107,6 +107,7 @@ Software
     - Preferences > Editor > General > Appearance:
         - Check 'Show line numbers'
 
+### f.lux
 ### Skype
 ### Spotify
 ### Dropbox
