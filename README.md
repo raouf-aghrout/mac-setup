@@ -106,6 +106,9 @@ Software
 - Default plugins
     - Preferences > Editor > General > Appearance:
         - Check 'Show line numbers'
+- Setup templates
+- Default to private variables
+- Ignore warnings on injected objects
 
 ### f.lux
 ### Skype
