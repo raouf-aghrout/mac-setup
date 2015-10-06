@@ -78,6 +78,8 @@ Software
 
 ### iTerm
 - Preferences > Profiles:
+    - General:
+        - Set 'Working Directory' to 'Reuse previous session's directory'
     - Colors:
         - Set ‘Load Presets…’ to ‘Tango Dark'
     - Terminal:
