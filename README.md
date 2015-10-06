@@ -99,8 +99,10 @@ Software
 - Brew Cask
 - tree
 - mr
+- ant
 - maven
 - gradle
+- htop
 
 ### Atom
 - Settings:
