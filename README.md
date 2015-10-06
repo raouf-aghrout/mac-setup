@@ -106,6 +106,8 @@ Software
 - Default plugins
     - Preferences > Editor > General > Appearance:
         - Check 'Show line numbers'
+    - Preferences > Editor > File and Code Templates > Includes:
+        - Delete template under 'File Header'
 - Setup templates
 - Default to private variables
 - Ignore warnings on injected objects
