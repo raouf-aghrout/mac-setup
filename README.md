@@ -101,6 +101,8 @@ Software
 ### Atom
 - Settings:
     - Set 'Font Size' to 12
+    - Plugins > Installed Packages > Autosave > Settings:
+        - Check 'Enabled'
 
 ### IntelliJ
 - Enable Darcula theme
