@@ -75,9 +75,11 @@ Software
     - Momentum
 
 ### iTerm
-- Preferences:
+- Preferences > Profiles:
     - Colors:
         - Set ‘Load Presets…’ to ‘Tango Dark'
+    - Terminal:
+        - Check 'Unlimited scrollback'
 
 ### Oh My Zsh
 - Change theme to ‘avit'
