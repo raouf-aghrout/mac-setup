@@ -25,6 +25,8 @@ System Preferences
 ### Keyboard
 - Keyboard:
     - Set ‘Use all F1, F2, etc. keys as standard function keys’
+    - Slide 'Key Repeat' to 'Fast'
+    - Slide 'Delay Until Repeat' to 'Short'
 
 ### Mouse
 - Point & Click
