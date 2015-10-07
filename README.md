@@ -22,6 +22,12 @@ System Preferences
 - Display:
     - Slide display resolution to scaled for ‘More Space’
 
+### Dock
+- Remove unused apps
+- Slide ‘Size' to roughly 25%
+- Check ‘Automatically hide and show the dock’
+- Check ‘Minimise windows into application icon'
+
 ### Keyboard
 - Keyboard:
     - Set ‘Use all F1, F2, etc. keys as standard function keys’
@@ -51,11 +57,8 @@ System Preferences
 - More Gestures:
     - Check ‘App Expose'
 
-### Dock
-- Remove unused apps
-- Slide ‘Size' to roughly 25%
-- Check ‘Automatically hide and show the dock’
-- Check ‘Minimise windows into application icon'
+### Users & Groups
+- Drag and drop profile picture
 
 Software
 --------
