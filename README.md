@@ -87,8 +87,6 @@ Software
         - Set ‘Load Presets…’ to ‘Tango Dark'
     - Terminal:
         - Check 'Unlimited scrollback'
-    - Keys:
-        - Set 'Left option (Alt) key acts as' to '+Esc'
 
 ### Oh My Zsh
 - Change theme to ‘avit'
