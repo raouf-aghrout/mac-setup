@@ -124,6 +124,7 @@ Software
 - Setup templates
 - Default to private variables
 - Ignore warnings on injected objects
+- Prevent static wildcard imports 
 
 ### f.lux
 ### Skype
