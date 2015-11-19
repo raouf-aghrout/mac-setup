@@ -134,7 +134,7 @@ Software
 - Prevent static wildcard imports
     - Preferences > Editor > Code Style > Java > Imports
         - Set 'Class count to use import * ' to 500
-        - Set 'Names count to use static import with * ' to 500   
+        - Set 'Names count to use static import with * ' to 500
 - Setup test template
     - Preferences > Editor > Live Templates > Java
         - Create a test live template
