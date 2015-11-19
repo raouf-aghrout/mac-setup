@@ -99,13 +99,17 @@ Software
 - Setup aliases
 
 ### Brew
-- Brew Cask
-- tree
-- mr
 - ant
-- maven
+- brew-cask
+- coreutils
 - gradle
-- htop
+- htop-osx
+- jq
+- maven
+- maven2
+- mr
+- node
+- tree
 
 ### Atom
 - Settings:
