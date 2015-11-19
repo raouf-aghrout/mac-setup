@@ -55,7 +55,7 @@ System Preferences
 - Scroll & Zoom:
     - Un-check ’Scroll direction: natural
 - More Gestures:
-    - Check ‘App Expose'
+    - Check ‘App Expose'
 
 ### Users & Groups
 - Drag and drop profile picture
