@@ -114,17 +114,30 @@ Software
         - Check 'Enabled'
 
 ### IntelliJ
-- Enable Darcula theme
-- MacOSX 1.5+ key bindings
-- Default plugins
+- On start
+    - Select Darcula theme
+    - Select Mac OS X 1.5+ key bindings
+    - Select default plugins
+- Show line numbers
     - Preferences > Editor > General > Appearance:
         - Check 'Show line numbers'
+- Remove auto generated file header
     - Preferences > Editor > File and Code Templates > Includes:
         - Delete template under 'File Header'
-- Setup templates
-- Default to private variables
 - Ignore warnings on injected objects
+    - Preferences > Editor > Inspections > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
+        - Add Inject classes
 - Prevent static wildcard imports
+    - Preferences > Editor > Code Style > Java > Imports
+        - Set 'Class count to use import * ' to 500
+        - Set 'Names count to use static import with * ' to 500   
+- Setup test template
+    - Preferences > Editor > Live Templates > Java
+        - Create a test live template
+- Prevent auto formatting placing annotations on new line
+    - Preferences > Editor > Code Style > Java > Wrapping and Braces
+        - Set 'Field annotations' to 'Do not wrap'
+        - Check 'Do not wrap after single annotation'
 
 ### f.lux
 ### Skype
