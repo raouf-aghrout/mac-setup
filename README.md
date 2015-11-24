@@ -142,6 +142,9 @@ Software
     - Preferences > Editor > Code Style > Java > Wrapping and Braces
         - Set 'Field annotations' to 'Do not wrap'
         - Check 'Do not wrap after single annotation'
+- Prevent open tabs remaining on a single row
+    - Preferences > Editor > General > Editor Tabs > Tab Appearance
+        - Un-check 'Show tabs in single row'
 
 ### f.lux
 ### Skype
