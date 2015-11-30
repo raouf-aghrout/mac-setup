@@ -128,9 +128,10 @@ Software
 - Remove auto generated file header
     - Preferences > Editor > File and Code Templates > Includes:
         - Delete template under 'File Header'
-- Ignore warnings on injected objects
-    - Preferences > Editor > Inspections > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
+- Ignore warnings on injected and mock objects
+    - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
         - Add Inject classes
+        - Add Mock classes
 - Prevent static wildcard imports
     - Preferences > Editor > Code Style > Java > Imports
         - Set 'Class count to use import * ' to 500
