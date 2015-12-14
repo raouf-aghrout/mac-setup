@@ -130,7 +130,7 @@ Software
         - Delete template under 'File Header'
 - Ignore warnings on injected and mock objects
     - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
-        - Add Inject classes
+        - Add Autowired / Inject classes
         - Add Mock classes
 - Prevent static wildcard imports
     - Preferences > Editor > Code Style > Java > Imports
