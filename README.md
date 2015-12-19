@@ -100,12 +100,8 @@ Software
 
 ### Brew
 - ant
-- brew-cask
-- coreutils
 - gradle
 - htop-osx
-- jq
-- maven
 - maven2
 - mr
 - node
