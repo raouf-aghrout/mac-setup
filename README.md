@@ -143,6 +143,7 @@ Software
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'
 
+### Android Studio
 ### f.lux
 ### Skype
 ### Spotify
