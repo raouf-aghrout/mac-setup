@@ -107,6 +107,12 @@ Software
 - node
 - tree
 
+### Global Node Modules
+- cordova
+- npm
+- phonegap
+- plugman
+
 ### Atom
 - Settings:
     - Set 'Font Size' to 12
