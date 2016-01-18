@@ -101,10 +101,9 @@ Software
 ### Brew
 - ant
 - gradle
-- htop-osx
-- maven2
+- maven
 - mr
-- node
+- node4-lts
 - tree
 
 ### Global Node Modules
