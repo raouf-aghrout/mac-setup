@@ -101,6 +101,7 @@ Software
 ### Brew
 - ant
 - gradle
+- java
 - maven
 - mr
 - node4-lts
