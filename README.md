@@ -113,6 +113,9 @@ Software
 - phonegap
 - plugman
 
+### Ruby
+- rvm
+
 ### Atom
 - Settings:
     - Set 'Font Size' to 12
