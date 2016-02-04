@@ -107,7 +107,7 @@ Software
 - node4-lts
 - tree
 
-### Global Node Modules
+### Node
 - cordova
 - npm
 - phonegap
@@ -115,6 +115,8 @@ Software
 
 ### Ruby
 - rvm
+- bundler
+- github-pages
 
 ### Atom
 - Settings:
@@ -152,9 +154,8 @@ Software
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'
 
-### Android Studio
-### f.lux
 ### Skype
 ### Spotify
 ### Dropbox
+### f.lux
 ### Caffeine
