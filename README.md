@@ -7,14 +7,12 @@ System Preferences
 ------------------
 
 ### Bluetooth
-- Pair magic mouse
-- Rename to ‘Raouf’s Mouse’
+- Pair mouse and rename
 - Pair keyboard
-- Rename to ‘Raouf’s Keyboard'
 
 ### Desktop & Screen Saver
 - Desktop:
-    - Set ‘Change picture’ to  'Every 5 minutes'
+    - Set background image
 - Screen Saver:
     - Set ‘Start after’ to 'Never'
 
@@ -36,6 +34,7 @@ System Preferences
 
 ### Mouse
 - Point & Click
+    - Un-check 'Scroll direction: natural'
     - Check ‘Secondary click’
     - Check ‘Smart zoom'
     - Slide ‘Tracking’ to 5
@@ -65,21 +64,12 @@ Software
 
 ### Spectacle
 - Preferences:
-    - Enable only 6 main short cuts
+    - Enable only 8 main short cuts
     - Check 'Launch Spectacle at login’
     - Rebind to Ctrl variants
 
-### Google Chrome
-- Make default browser
-- Sign into profiles
-- Extensions:
-    - Postman
-    - U Block Origin
-    - Ad Block Plus
-    - JSON Formatter
-    - Momentum
-
 ### iTerm
+- Keep in dock
 - Preferences > Profiles:
     - General:
         - Set 'Working Directory' to 'Reuse previous session's directory'
@@ -92,39 +82,48 @@ Software
 - Change theme to ‘avit'
 
 ### XCode
-- Installs Git
+- Installs developer tools like Git
 
 ### Git
+- Generate SSH key and setup on GitHub
 - Setup config
 - Setup aliases
 
 ### Brew
-- ant
-- gradle
-- java
-- maven
-- mr
-- node4-lts
-- tree
+- Install Homebrew Cask
+- Install recipes:
+    - ant
+    - gradle
+    - java
+    - maven
+    - mr
+    - node4-lts
+    - tree
 
-### Node
-- cordova
-- npm
-- phonegap
-- plugman
+### Google Chrome
+- Keep in dock
+- Make default browser
+- Sign into profile
+- Extensions:
+    - U Block Origin
+    - Ad Block Plus
+    - JSON Formatter
+    - Momentum
 
 ### Ruby
 - rvm
 - bundler
-- github-pages
+- jekyll
 
 ### Atom
-- Settings:
+- Keep in dock
+- Preferences:
     - Set 'Font Size' to 12
     - Plugins > Installed Packages > Autosave > Settings:
         - Check 'Enabled'
 
 ### IntelliJ
+- Keep in dock
 - On start
     - Select Darcula theme
     - Select Mac OS X 1.5+ key bindings
@@ -154,8 +153,18 @@ Software
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'
 
-### Skype
-### Spotify
-### Dropbox
-### f.lux
 ### Caffeine
+Preferences:
+    - Check 'Automatically start Caffeine at login'
+    - Check 'Activate Caffeine at launch'
+    - Un-check 'Show this message when starting Caffeine'
+
+### Spotify
+- Keep in dock
+- Settings
+    - Display Options
+        - Enable 'Show unavailable tracks in playlists'
+    - Startup and Window Behaviour
+        - Set 'Open Spotify automatically after you log into the computer' to 'No' 
+
+### f.lux
