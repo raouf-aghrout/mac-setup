@@ -102,6 +102,7 @@ Software
     - node4-lts
     - redis28
     - tree
+- Export java home
 
 ### Google Chrome
 - Keep in dock
