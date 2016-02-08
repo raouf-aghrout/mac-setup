@@ -95,9 +95,11 @@ Software
     - ant
     - gradle
     - java
+    - jq
     - maven
     - mr
     - node4-lts
+    - redis28
     - tree
 
 ### Google Chrome
