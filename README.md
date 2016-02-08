@@ -90,6 +90,7 @@ Software
 - Setup aliases
 
 ### Brew
+- Export Homebrew GitHub API token
 - Install Homebrew Cask
 - Install recipes:
     - ant
