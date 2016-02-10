@@ -158,7 +158,7 @@ Software
         - Un-check 'Show tabs in single row'
 
 ### Caffeine
-Preferences:
+- Preferences:
     - Check 'Automatically start Caffeine at login'
     - Check 'Activate Caffeine at launch'
     - Un-check 'Show this message when starting Caffeine'
