@@ -173,3 +173,4 @@ Software
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
 ### f.lux
+### CCleaner
