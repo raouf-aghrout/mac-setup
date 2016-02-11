@@ -95,12 +95,13 @@ Software
 - Install recipes:
     - ant
     - gradle
+    - htop-osx
     - java
     - jq
     - maven
     - mr
     - node4-lts
-    - redis28
+    - redis
     - tree
 - Export java home
 
