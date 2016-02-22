@@ -8,7 +8,7 @@ System Preferences
 
 ### Bluetooth
 - Pair mouse and rename
-- Pair keyboard
+- Pair keyboard and rename
 
 ### Desktop & Screen Saver
 - Desktop:
