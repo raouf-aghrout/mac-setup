@@ -90,19 +90,14 @@ Software
 
 ### Brew
 - Export Homebrew GitHub API token
-- Install Homebrew Cask
 - Install recipes:
     - ant
     - gradle
     - htop-osx
     - java
-    - jq
     - maven
-    - mr
     - node4-lts
-    - redis
     - tree
-- Export java home
 
 ### Google Chrome
 - Keep in dock
