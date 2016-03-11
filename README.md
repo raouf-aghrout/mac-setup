@@ -49,7 +49,6 @@ System Preferences
 ### Trackpad
 - Point & Click:
     - Check 'Tap to click’
-    - Check ’Three finger drag’
     - Slide tracking speed to 5
 - Scroll & Zoom:
     - Un-check ’Scroll direction: natural
