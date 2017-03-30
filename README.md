@@ -114,13 +114,6 @@ Software
 - bundler
 - jekyll
 
-### Atom
-- Keep in dock
-- Preferences:
-    - Set 'Font Size' to 12
-    - Plugins > Installed Packages > Autosave > Settings:
-        - Check 'Enabled'
-
 ### IntelliJ
 - Keep in dock
 - On start
