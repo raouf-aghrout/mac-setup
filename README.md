@@ -145,6 +145,13 @@ Software
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'
 
+### WebStorm
+- Keep in dock
+- On Start
+    - Select Mac OS X 1.5+ key bindings
+    - Select Darcula theme
+    - Check 'Enable opening files and projects from the command line'
+  
 ### Caffeine
 - Preferences:
     - Check 'Automatically start Caffeine at login'
