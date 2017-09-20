@@ -109,11 +109,6 @@ Software
     - JSON Formatter
     - Momentum
 
-### Ruby
-- rvm
-- bundler
-- jekyll
-
 ### IntelliJ
 - Keep in dock
 - On start
