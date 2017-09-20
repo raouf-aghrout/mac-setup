@@ -91,13 +91,13 @@ Software
 ### Brew
 - Export Homebrew GitHub API token
 - Install recipes:
-    - ant
     - gradle
-    - htop-osx
+    - htop
     - java
     - maven
-    - node4-lts
+    - node
     - tree
+    - unrar
 
 ### Google Chrome
 - Keep in dock
