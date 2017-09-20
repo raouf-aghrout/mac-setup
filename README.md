@@ -99,6 +99,11 @@ Software
     - tree
     - unrar
 
+### Node
+- Global modules:
+    - serverless
+    - claudia 
+
 ### Google Chrome
 - Keep in dock
 - Make default browser
