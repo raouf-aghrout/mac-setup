@@ -28,7 +28,6 @@ System Preferences
 
 ### Keyboard
 - Keyboard:
-    - Set ‘Use all F1, F2, etc. keys as standard function keys’
     - Slide 'Key Repeat' to 'Fast'
     - Slide 'Delay Until Repeat' to 'Short'
 
@@ -61,27 +60,36 @@ System Preferences
 Software
 --------
 
+### Google Chrome
+- Keep in dock
+- Make default browser
+- Sign into profile
+- Extensions:
+    - U Block
+    - JSON Formatter
+    - Momentum
+
 ### Spectacle
 - Preferences:
-    - Enable only 8 main short cuts
+    - Enable only 6 main short cuts
     - Check 'Launch Spectacle at login’
     - Rebind to Ctrl variants
 
-### iTerm
+### iTerm2
 - Keep in dock
 - Preferences > Profiles:
     - General:
         - Set 'Working Directory' to 'Reuse previous session's directory'
     - Colors:
-        - Set ‘Load Presets…’ to ‘Tango Dark'
+        - Set ‘Color Presets…’ to ‘Tango Dark'
     - Terminal:
         - Check 'Unlimited scrollback'
 
-### Oh My Zsh
-- Change theme to ‘avit'
-
 ### XCode
 - Installs developer tools like Git
+
+### Oh My Zsh
+- Change theme to ‘avit'
 
 ### Git
 - Generate SSH key and setup on GitHub
@@ -91,28 +99,18 @@ Software
 ### Brew
 - Export Homebrew GitHub API token
 - Install recipes:
+    - java
     - gradle
     - htop
-    - java
-    - maven
     - node
     - tree
     - unrar
+    - awscli
 
 ### Node
 - Global modules:
     - serverless
     - claudia 
-
-### Google Chrome
-- Keep in dock
-- Make default browser
-- Sign into profile
-- Extensions:
-    - U Block Origin
-    - Ad Block Plus
-    - JSON Formatter
-    - Momentum
 
 ### IntelliJ
 - Keep in dock
@@ -120,12 +118,6 @@ Software
     - Select Darcula theme
     - Select Mac OS X 1.5+ key bindings
     - Select default plugins
-- Show line numbers
-    - Preferences > Editor > General > Appearance:
-        - Check 'Show line numbers'
-- Remove auto generated file header
-    - Preferences > Editor > File and Code Templates > Includes:
-        - Delete template under 'File Header'
 - Ignore warnings on injected and mock objects
     - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
         - Add Autowired / Inject classes
@@ -152,11 +144,8 @@ Software
     - Select Darcula theme
     - Check 'Enable opening files and projects from the command line'
   
-### Caffeine
-- Preferences:
-    - Check 'Automatically start Caffeine at login'
-    - Check 'Activate Caffeine at launch'
-    - Un-check 'Show this message when starting Caffeine'
+### Owly
+- Check 'Start at login'
 
 ### Spotify
 - Keep in dock
@@ -167,4 +156,7 @@ Software
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
 ### f.lux
+- Set 'X is when I wake up'
+
+### Slack
 ### CCleaner
