@@ -97,7 +97,6 @@ Software
 - Setup aliases
 
 ### Brew
-- Export Homebrew GitHub API token
 - Install recipes:
     - java
     - gradle
