@@ -149,6 +149,8 @@ Software
 ### Spotify
 - Keep in dock
 - Settings
+    - Music Quality
+        - Enable 'High quality streaming'
     - Display Options
         - Enable 'Show unavailable tracks in playlists'
     - Startup and Window Behaviour
@@ -158,4 +160,7 @@ Software
 - Set 'X is when I wake up'
 
 ### Slack
+- Keep in dock
+
+### 1Password
 ### CCleaner
