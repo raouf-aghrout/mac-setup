@@ -19,6 +19,9 @@ System Preferences
 ### Displays
 - Display:
     - Slide display resolution to scaled for ‘More Space’
+- Night Shift:
+    - Set 'Schedule' to 'Sunset to Sunrise'
+    - Check 'Turn On Until Sunrise'
 
 ### Dock
 - Remove unused apps
@@ -155,9 +158,6 @@ Software
         - Enable 'Show unavailable tracks in playlists'
     - Startup and Window Behaviour
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
-
-### f.lux
-- Set 'X is when I wake up'
 
 ### Slack
 - Keep in dock
