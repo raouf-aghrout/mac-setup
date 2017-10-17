@@ -100,8 +100,10 @@ Software
 - Setup aliases
 
 ### Brew
-- Install recipes:
+- Install casks:
     - java
+    - cyberduck
+- Install recipes:
     - gradle
     - htop
     - node
