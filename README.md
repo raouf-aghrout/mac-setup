@@ -71,6 +71,7 @@ Software
     - U Block
     - JSON Formatter
     - Momentum
+    - 1Password
 
 ### Spectacle
 - Preferences:
