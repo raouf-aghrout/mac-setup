@@ -33,6 +33,10 @@ System Preferences
 - Keyboard:
     - Slide 'Key Repeat' to 'Fast'
     - Slide 'Delay Until Repeat' to 'Short'
+- Shortcuts:
+    - Functions keys:
+        - WebStorm
+        - IntelliJ IDEA CE
 
 ### Mouse
 - Point & Click
