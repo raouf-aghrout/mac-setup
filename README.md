@@ -108,6 +108,7 @@ Software
 - Install casks:
     - java
     - cyberduck
+    - fly
 - Install recipes:
     - gradle
     - htop
