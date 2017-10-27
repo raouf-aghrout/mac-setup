@@ -3,6 +3,11 @@ Mac Setup
 
 Mac setup instructions for development, hopefully turn into a script.
 
+To Do:
+------
+
+- Brew all the things
+
 System Preferences
 ------------------
 
