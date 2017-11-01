@@ -114,6 +114,7 @@ Software
     - java
     - cyberduck
     - fly
+    - avibrazil-rdm
 - Install recipes:
     - gradle
     - htop
