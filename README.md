@@ -7,6 +7,7 @@ To Do:
 ------
 
 - Brew all the things
+- Add lock mac stuff
 
 System Preferences
 ------------------
@@ -115,6 +116,7 @@ Software
     - cyberduck
     - fly
     - avibrazil-rdm
+    - caffeine
 - Install recipes:
     - gradle
     - htop
@@ -122,6 +124,11 @@ Software
     - tree
     - unrar
     - awscli
+
+### Caffeine
+- Check 'Automatically start Caffeine at login'
+- Check 'Activate Caffeine at launch'
+- Set Default duration 'Indefinitely'
 
 ### Node
 - Global modules:
