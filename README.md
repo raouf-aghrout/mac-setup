@@ -7,7 +7,6 @@ To Do:
 ------
 
 - Brew all the things
-- Add lock mac stuff
 
 System Preferences
 ------------------
@@ -43,6 +42,9 @@ System Preferences
     - Functions keys:
         - WebStorm
         - IntelliJ IDEA CE
+- Keyboard:
+    - Customize Control Strip:
+        - Screen Lock
 
 ### Mouse
 - Point & Click
