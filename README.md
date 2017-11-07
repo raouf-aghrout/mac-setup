@@ -126,6 +126,8 @@ Software
     - tree
     - unrar
     - awscli
+    - aws-elasticbeanstalk
+    - docker
 
 ### Caffeine
 - Check 'Automatically start Caffeine at login'
