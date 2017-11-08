@@ -54,6 +54,12 @@ System Preferences
     - Slide ‘Tracking’ to 5
 - More Gestures:
     - Check ’Swipe between pages'
+    
+### Network
+- Advanced...
+    - DNS
+        - Add DNS servers 8.8.8.8 & 8.8.4.4
+        - Remove others
 
 ### Security & Privacy
 - General:
