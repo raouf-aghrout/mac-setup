@@ -114,11 +114,13 @@ Software
 
 ### Brew
 - Install casks:
-    - java
+    - java8
     - cyberduck
     - fly
     - avibrazil-rdm
     - caffeine
+    - docker
+    - tunnelblick
 - Install recipes:
     - gradle
     - htop
@@ -128,6 +130,8 @@ Software
     - awscli
     - aws-elasticbeanstalk
     - docker
+    - tfenv
+    - ccat
 
 ### Caffeine
 - Check 'Automatically start Caffeine at login'
