@@ -180,9 +180,6 @@ Software
     - Select Mac OS X 1.5+ key bindings
     - Select Darcula theme
     - Check 'Enable opening files and projects from the command line'
-  
-### Owly
-- Check 'Start at login'
 
 ### Spotify
 - Keep in dock
