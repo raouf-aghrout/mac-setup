@@ -7,6 +7,9 @@ To Do:
 ------
 
 - Brew all the things
+- Add WebStorm plugins
+- Add IntelliJ plugins
+
 
 System Preferences
 ------------------
@@ -156,9 +159,8 @@ Software
     - Select Mac OS X 1.5+ key bindings
     - Select default plugins
 - Ignore warnings on injected and mock objects
-    - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Configure annotations...
-        - Add Autowired / Inject classes
-        - Add Mock classes
+    - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Annotations...
+        - Add Autowired, Inject, Mock etc. to 'Mark field as implicilty written if annotated by'
 - Prevent static wildcard imports
     - Preferences > Editor > Code Style > Java > Imports
         - Set 'Class count to use import * ' to 500
@@ -166,10 +168,6 @@ Software
 - Setup test template
     - Preferences > Editor > Live Templates > Java
         - Create a test live template
-- Prevent auto formatting placing annotations on new line
-    - Preferences > Editor > Code Style > Java > Wrapping and Braces
-        - Set 'Field annotations' to 'Do not wrap'
-        - Check 'Do not wrap after single annotation'
 - Prevent open tabs remaining on a single row
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'
