@@ -7,9 +7,7 @@ To Do:
 ------
 
 - Brew all the things
-- Add WebStorm plugins
 - Add IntelliJ plugins
-
 
 System Preferences
 ------------------
@@ -170,7 +168,7 @@ Software
         - Create a test live template
 - Prevent open tabs remaining on a single row
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
-        - Un-check 'Show tabs in single row'
+        - Un-check 'Show tabs in single row'`
 
 ### WebStorm
 - Keep in dock
@@ -178,6 +176,11 @@ Software
     - Select Mac OS X 1.5+ key bindings
     - Select Darcula theme
     - Check 'Enable opening files and projects from the command line'
+- Plugins:
+    - .ignore
+    - BashSupport
+    - HashiCorp Terraform / HCL language support
+    - Markdown support
 
 ### Spotify
 - Keep in dock
