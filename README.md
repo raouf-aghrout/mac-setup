@@ -128,6 +128,7 @@ Software
     - caffeine
     - docker
     - tunnelblick
+    - postman
 - Install recipes:
     - gradle
     - htop
@@ -193,6 +194,9 @@ Software
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
 ### Slack
+- Keep in dock
+
+### Postman
 - Keep in dock
 
 ### 1Password
