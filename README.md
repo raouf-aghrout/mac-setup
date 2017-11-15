@@ -91,6 +91,7 @@ Software
     - JSON Formatter
     - Momentum
     - 1Password
+    - React Developer Tools
 
 ### Spectacle
 - Preferences:
