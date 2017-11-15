@@ -174,9 +174,14 @@ Software
 ### WebStorm
 - Keep in dock
 - On Start
-    - Select Mac OS X 1.5+ key bindings
     - Select Darcula theme
+    - Select Mac OS X 1.5+ key bindings
     - Check 'Enable opening files and projects from the command line'
+- Apply JavaScript code formatting options
+    - Preferences > Editor > CodeStyle > JavaScript
+        - Set 'Tab size' to 2
+        - Set 'Indent' to 2
+        - Set 'Continuation indent' to 2
 - Plugins:
     - .ignore
     - BashSupport
