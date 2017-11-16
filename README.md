@@ -95,7 +95,7 @@ Software
 
 ### Spectacle
 - Preferences:
-    - Enable only 6 main short cuts
+    - Enable only 8 main short cuts
     - Check 'Launch Spectacle at login’
     - Rebind to Ctrl variants
 
