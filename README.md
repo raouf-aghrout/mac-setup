@@ -92,6 +92,7 @@ Software
     - Momentum
     - 1Password
     - React Developer Tools
+    - Wappalyzer
 
 ### Spectacle
 - Preferences:
