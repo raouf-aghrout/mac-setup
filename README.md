@@ -35,11 +35,6 @@ System Preferences
 - Keyboard:
     - Slide 'Key Repeat' to 'Fast'
     - Slide 'Delay Until Repeat' to 'Short'
-- Shortcuts:
-    - Functions keys:
-        - WebStorm
-        - IntelliJ IDEA CE
-- Keyboard:
     - Customize Control Strip:
         - Screen Lock
 
@@ -151,6 +146,7 @@ Software
 
 ### IntelliJ
 - Keep in dock
+- Setup System Preferences > Keyboard > Shortcuts > Functions keys
 - On start
     - Select Darcula theme
     - Select Mac OS X 1.5+ key bindings
@@ -171,6 +167,7 @@ Software
 
 ### WebStorm
 - Keep in dock
+- Setup System Preferences > Keyboard > Shortcuts > Functions keys
 - On Start
     - Select Darcula theme
     - Select Mac OS X 1.5+ key bindings
