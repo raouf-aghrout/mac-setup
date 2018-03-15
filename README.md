@@ -12,10 +12,6 @@ To Do:
 System Preferences
 ------------------
 
-### Bluetooth
-- Pair mouse and rename
-- Pair keyboard and rename
-
 ### Desktop & Screen Saver
 - Desktop:
     - Set background image
