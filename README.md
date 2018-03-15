@@ -105,8 +105,6 @@ Software
 - Install casks:
     - java8
     - caffeine
-    - docker
-    - postman
 - Install recipes:
     - gradle
     - htop
@@ -114,8 +112,6 @@ Software
     - tree
     - unrar
     - awscli
-    - aws-elasticbeanstalk
-    - docker
     - tfenv
     - ccat
 
@@ -179,9 +175,6 @@ Software
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
 ### Slack
-- Keep in dock
-
-### Postman
 - Keep in dock
 
 ### CCleaner
