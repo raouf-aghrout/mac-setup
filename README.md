@@ -37,15 +37,6 @@ System Preferences
     - Slide 'Delay Until Repeat' to 'Short'
     - Customize Control Strip:
         - Screen Lock
-
-### Mouse
-- Point & Click
-    - Un-check 'Scroll direction: natural'
-    - Check ‘Secondary click’
-    - Check ‘Smart zoom'
-    - Slide ‘Tracking’ to 5
-- More Gestures:
-    - Check ’Swipe between pages'
     
 ### Network
 - Advanced...
