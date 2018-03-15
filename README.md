@@ -60,6 +60,27 @@ System Preferences
 ### Users & Groups
 - Drag and drop profile picture
 
+Brew
+----
+
+### XCode
+- Installs required developer tools like Git
+
+### Brew
+- Install recipes:
+    - awscli
+    - ccat
+    - gradle
+    - htop
+    - maven
+    - node
+    - tree
+    - unrar
+- Install brew cask
+- Install casks:
+    - java8
+    - caffeine
+
 Software
 --------
 
@@ -90,9 +111,6 @@ Software
     - Terminal:
         - Check 'Unlimited scrollback'
 
-### XCode
-- Installs developer tools like Git
-
 ### Oh My Zsh
 - Change theme to ‘avit'
 
@@ -100,19 +118,6 @@ Software
 - Generate SSH key and setup on GitHub
 - Setup config
 - Setup aliases
-
-### Brew
-- Install casks:
-    - java8
-    - caffeine
-- Install recipes:
-    - gradle
-    - htop
-    - node
-    - tree
-    - unrar
-    - awscli
-    - ccat
 
 ### Caffeine
 - Check 'Automatically start Caffeine at login'
