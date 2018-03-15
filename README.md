@@ -68,10 +68,10 @@ Software
 - Make default browser
 - Sign into profile
 - Extensions:
+    - LastPass
     - U Block
     - JSON Formatter
     - Momentum
-    - 1Password
     - React Developer Tools
     - Wappalyzer
 
@@ -189,5 +189,4 @@ Software
 ### Postman
 - Keep in dock
 
-### 1Password
 ### CCleaner
