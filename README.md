@@ -12,6 +12,22 @@ To Do:
 System Preferences
 ------------------
 
+### Trackpad
+- Point & Click:
+    - Check 'Tap to click’
+    - Slide tracking speed to 5
+- Scroll & Zoom:
+    - Un-check ’Scroll direction: natural
+- More Gestures:
+    - Check ‘App Expose'
+
+### Keyboard
+- Keyboard:
+    - Slide 'Key Repeat' to 'Fast'
+    - Slide 'Delay Until Repeat' to 'Short'
+    - Customize Control Strip:
+        - Screen Lock
+
 ### Desktop & Screen Saver
 - Desktop:
     - Set background image
@@ -30,13 +46,6 @@ System Preferences
 - Slide ‘Size' to roughly 25%
 - Check ‘Automatically hide and show the dock’
 - Check ‘Minimise windows into application icon'
-
-### Keyboard
-- Keyboard:
-    - Slide 'Key Repeat' to 'Fast'
-    - Slide 'Delay Until Repeat' to 'Short'
-    - Customize Control Strip:
-        - Screen Lock
     
 ### Network
 - Advanced...
@@ -47,15 +56,6 @@ System Preferences
 - General:
     - Change Password...
     - Set ‘Require password’ to ‘immediately'
-
-### Trackpad
-- Point & Click:
-    - Check 'Tap to click’
-    - Slide tracking speed to 5
-- Scroll & Zoom:
-    - Un-check ’Scroll direction: natural
-- More Gestures:
-    - Check ‘App Expose'
 
 ### Users & Groups
 - Drag and drop profile picture
