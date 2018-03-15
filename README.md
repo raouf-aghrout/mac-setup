@@ -73,7 +73,6 @@ Software
     - JSON Formatter
     - Momentum
     - React Developer Tools
-    - Wappalyzer
 
 ### Spectacle
 - Preferences:
@@ -105,12 +104,8 @@ Software
 ### Brew
 - Install casks:
     - java8
-    - cyberduck
-    - fly
-    - avibrazil-rdm
     - caffeine
     - docker
-    - tunnelblick
     - postman
 - Install recipes:
     - gradle
