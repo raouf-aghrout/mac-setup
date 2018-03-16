@@ -127,7 +127,6 @@ Software
 ### Caffeine
 - Check 'Automatically start Caffeine at login'
 - Check 'Activate Caffeine at launch'
-- Set Default duration 'Indefinitely' 
 
 ### IntelliJ
 - Keep in dock
