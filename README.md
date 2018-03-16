@@ -81,8 +81,11 @@ Brew
     - iterm2
     - spectacle
     - google-chrome
-    - spotify
     - java8
+    - intellij
+    - spotify
+    - slack
+    - ccleaner
     - caffeine
 
 Software
