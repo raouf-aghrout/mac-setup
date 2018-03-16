@@ -149,24 +149,12 @@ Software
 - Prevent open tabs remaining on a single row
     - Preferences > Editor > General > Editor Tabs > Tab Appearance
         - Un-check 'Show tabs in single row'`
-
-### WebStorm
-- Keep in dock
-- Setup System Preferences > Keyboard > Shortcuts > Functions keys
-- On Start
-    - Select Darcula theme
-    - Select Mac OS X 1.5+ key bindings
-    - Check 'Enable opening files and projects from the command line'
-- Apply JavaScript code formatting options
-    - Preferences > Editor > CodeStyle > JavaScript
-        - Set 'Tab size' to 2
-        - Set 'Indent' to 2
-        - Set 'Continuation indent' to 2
 - Plugins:
     - .ignore
     - BashSupport
     - HashiCorp Terraform / HCL language support
     - Markdown support
+    - NodeJS
 
 ### Spotify
 - Keep in dock
