@@ -6,8 +6,8 @@ Mac setup instructions for development, hopefully turn into a script.
 To Do:
 ------
 
-- Brew all the things
-- Add IntelliJ plugins
+- Can oh-my-zsh be a brew cask?
+- Research cli utils that can change Mac system preferences
 
 System Preferences
 ------------------
