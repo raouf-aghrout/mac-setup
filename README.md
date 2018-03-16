@@ -81,6 +81,7 @@ Brew
     - iterm2
     - spectacle
     - google-chrome
+    - spotify
     - java8
     - caffeine
 
@@ -174,7 +175,7 @@ Software
         - Enable 'High quality streaming'
     - Display Options
         - Enable 'Show unavailable tracks in playlists'
-    - Startup and Window Behaviour
+    - Show Advanced Settings > Startup and Window Behaviour
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
 ### Slack
