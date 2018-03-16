@@ -78,12 +78,26 @@ Brew
     - unrar
 - Install brew cask
 - Install casks:
+    - iterm2
     - google-chrome
     - java8
     - caffeine
 
 Software
 --------
+
+### iTerm2
+- Keep in dock
+- Preferences > Profiles:
+    - General:
+        - Set 'Working Directory' to 'Reuse previous session's directory'
+    - Colors:
+        - Set ‘Color Presets…’ to ‘Tango Dark'
+    - Terminal:
+        - Check 'Unlimited scrollback'
+
+### Oh My Zsh
+- Change theme to ‘avit'
 
 ### Google Chrome
 - Keep in dock
@@ -103,19 +117,6 @@ Software
     - Enable only 8 main short cuts
     - Check 'Launch Spectacle at login’
     - Rebind to Ctrl variants
-
-### iTerm2
-- Keep in dock
-- Preferences > Profiles:
-    - General:
-        - Set 'Working Directory' to 'Reuse previous session's directory'
-    - Colors:
-        - Set ‘Color Presets…’ to ‘Tango Dark'
-    - Terminal:
-        - Check 'Unlimited scrollback'
-
-### Oh My Zsh
-- Change theme to ‘avit'
 
 ### Git
 - Generate SSH key and setup on GitHub
