@@ -79,6 +79,7 @@ Brew
 - Install brew cask
 - Install casks:
     - iterm2
+    - spectacle
     - google-chrome
     - java8
     - caffeine
