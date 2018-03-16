@@ -78,6 +78,7 @@ Brew
     - unrar
 - Install brew cask
 - Install casks:
+    - google-chrome
     - java8
     - caffeine
 
@@ -87,8 +88,10 @@ Software
 ### Google Chrome
 - Keep in dock
 - Make default browser
-- Sign into profile
-- Extensions:
+- Sign into profiles
+- Sync bookmarks
+- Setup pinned tabs
+- Install extensions:
     - LastPass
     - U Block
     - JSON Formatter
