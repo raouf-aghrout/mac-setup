@@ -29,6 +29,9 @@ System Preferences
     - Customize Control Strip:
         - Screen Lock
 
+# Bluetooth
+- Check 'Show Bluetooth in menu bar'
+
 ### Desktop & Screen Saver
 - Desktop:
     - Set background image
