@@ -170,6 +170,8 @@ Software
         - Enable 'High quality streaming'
     - Display Options
         - Enable 'Show unavailable tracks in playlists'
+    - Autoplay
+        - Disable 'Autoplay similar songs when your music ends'
     - Show Advanced Settings > Startup and Window Behaviour
         - Set 'Open Spotify automatically after you log into the computer' to 'No' 
 
