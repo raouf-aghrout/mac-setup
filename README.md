@@ -90,6 +90,7 @@ Brew
     - slack
     - ccleaner
     - caffeine
+    - steam
 
 Software
 --------
