@@ -6,7 +6,6 @@ Mac setup instructions for development, hopefully turn into a script.
 To Do:
 ------
 
-- Can oh-my-zsh be a brew cask?
 - Script brew recipes, casks and oh-my-zsh installs
 - Research cli utils that can change Mac system preferences
 
