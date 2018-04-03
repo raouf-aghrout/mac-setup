@@ -70,7 +70,8 @@ Brew
 - Installs required developer tools like Git
 
 ### Brew
-- Install recipes:
+- Install brew
+- Install brew recipes:
     - awscli
     - ccat
     - gradle
@@ -80,7 +81,7 @@ Brew
     - tree
     - unrar
 - Install brew cask
-- Install casks:
+- Install brew casks:
     - iterm2
     - spectacle
     - google-chrome
