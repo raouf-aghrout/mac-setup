@@ -91,6 +91,7 @@ Brew
     - ccleaner
     - caffeine
     - steam
+    - vlc
 
 Software
 --------
