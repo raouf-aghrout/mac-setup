@@ -179,3 +179,7 @@ Software
 
 ### Slack
 - Keep in dock
+
+### Steam
+- Preferences > Interface:
+    - Uncheck 'Run Steam when my computer starts'
