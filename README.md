@@ -177,5 +177,3 @@ Software
 
 ### Slack
 - Keep in dock
-
-### CCleaner
