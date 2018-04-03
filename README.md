@@ -53,7 +53,7 @@ System Preferences
 ### Network
 - Advanced...
     - DNS
-        - Add DNS servers 8.8.8.8 & 8.8.4.4
+        - Add DNS server 1.1.1.1 (Cloudflare)
 
 ### Security & Privacy
 - General:
