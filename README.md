@@ -93,6 +93,7 @@ Brew
     - caffeine
     - steam
     - vlc
+    - flux
 
 Software
 --------
