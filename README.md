@@ -49,6 +49,7 @@ System Preferences
 - Slide ‘Size' to roughly 25%
 - Check ‘Automatically hide and show the dock’
 - Check ‘Minimise windows into application icon'
+- Uncheck 'Show recent applications in Dock'
     
 ### Network
 - Advanced...
