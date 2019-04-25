@@ -77,8 +77,11 @@ Brew
     - ccat
     - gradle
     - htop
+    - jq
     - maven
     - node
+    - python
+    - terraform
     - tree
     - unrar
 - Install brew cask
