@@ -3,32 +3,10 @@ Mac Setup
 
 Mac setup instructions for development, hopefully turn into a script.
 
-To Do:
-------
-
-- Script brew recipes, casks and oh-my-zsh installs
-- Research cli utils that can change Mac system preferences
-
 System Preferences
 ------------------
 
-### Trackpad
-- Point & Click:
-    - Check 'Tap to click’
-    - Slide tracking speed to 5
-- Scroll & Zoom:
-    - Un-check ’Scroll direction: natural
-- More Gestures:
-    - Check ‘App Expose'
-
-### Keyboard
-- Keyboard:
-    - Slide 'Key Repeat' to 'Fast'
-    - Slide 'Delay Until Repeat' to 'Short'
-    - Customize Control Strip:
-        - Screen Lock
-
-# Bluetooth
+### Bluetooth
 - Check 'Show Bluetooth in menu bar'
 
 ### Desktop & Screen Saver
@@ -50,16 +28,27 @@ System Preferences
 - Check ‘Automatically hide and show the dock’
 - Check ‘Minimise windows into application icon'
 - Uncheck 'Show recent applications in Dock'
-    
-### Network
-- Advanced...
-    - DNS
-        - Add DNS server 1.1.1.1 (Cloudflare)
+
+### Keyboard
+- Keyboard:
+    - Slide 'Key Repeat' to 'Fast'
+    - Slide 'Delay Until Repeat' to 'Short'
+    - Set 'Touch Bar shows' to 'F1, F2, etc. Keys'
+    - Set 'Press and hold 🌐 ' to 'Show Control Strip' 
 
 ### Security & Privacy
 - General:
     - Change Password...
     - Set ‘Require password’ to ‘immediately'
+   
+### Trackpad
+- Point & Click:
+    - Check 'Tap to click’
+    - Slide tracking speed to 5
+- Scroll & Zoom:
+    - Un-check ’Scroll direction: natural
+- More Gestures:
+    - Check ‘App Expose'
 
 ### Users & Groups
 - Drag and drop profile picture
@@ -72,35 +61,36 @@ Brew
 
 ### Brew
 - Install brew
-- Install brew recipes:
-    - awscli
-    - ccat
-    - gradle
-    - htop
-    - jq
-    - maven
-    - node
-    - python
-    - terraform
-    - tree
-    - unrar
-- Install brew cask
+- Install brew formulae:
+    - tfswitch
+    - zsh
 - Install brew casks:
-    - iterm2
-    - spectacle
+    - discord
     - google-chrome
-    - java8
-    - intellij
-    - spotify
+    - iterm2
+    - postman
     - slack
-    - ccleaner
-    - caffeine
-    - steam
-    - vlc
-    - flux
+    - spectacle
+    - spotify
+    - webstorm
 
-Software
+### Oh My Zsh
+- Install Oh My Zsh
+    - Change theme to 'avit'
+
+### Git
+- Generate SSH key and add to GitHub
+- Setup config & aliases
+
+Casks
 --------
+
+### Google Chrome
+- Keep in dock
+- Make default browser
+- Sign into profiles
+- Sync bookmarks
+- Setup pinned tabs
 
 ### iTerm2
 - Keep in dock
@@ -112,21 +102,14 @@ Software
     - Terminal:
         - Check 'Unlimited scrollback'
 
-### Oh My Zsh
-- Change theme to ‘avit'
-
-### Google Chrome
+### Slack
 - Keep in dock
-- Make default browser
-- Sign into profiles
-- Sync bookmarks
-- Setup pinned tabs
-- Install extensions:
-    - LastPass
-    - U Block
-    - JSON Formatter
-    - Momentum
-    - React Developer Tools
+- Preferences
+    - Themes
+        - Select 'Dark'
+        - Colors > Select 'Nocturne'
+    - Messages & media
+        - Theme > Select 'Compact'
 
 ### Spectacle
 - Preferences:
@@ -134,57 +117,25 @@ Software
     - Check 'Launch Spectacle at login’
     - Rebind to Ctrl variants
 
-### Git
-- Generate SSH key and setup on GitHub
-- Setup config
-- Setup aliases
-
-### Caffeine
-- Check 'Automatically start Caffeine at login'
-- Check 'Activate Caffeine at launch'
-
-### IntelliJ
-- Keep in dock
-- Setup System Preferences > Keyboard > Shortcuts > Functions keys
-- On start
-    - Select Darcula theme
-    - Select Mac OS X 1.5+ key bindings
-    - Select default plugins
-- Ignore warnings on injected and mock objects
-    - Preferences > Editor > Inspections > Java > Declaration redundancy > Unused declaration > Options > Entry points > Annotations...
-        - Add Autowired, Inject, Mock etc. to 'Mark field as implicilty written if annotated by'
-- Prevent static wildcard imports
-    - Preferences > Editor > Code Style > Java > Imports
-        - Set 'Class count to use import * ' to 500
-        - Set 'Names count to use static import with * ' to 500
-- Setup test template
-    - Preferences > Editor > Live Templates > Java
-        - Create a test live template
-- Prevent open tabs remaining on a single row
-    - Preferences > Editor > General > Editor Tabs > Tab Appearance
-        - Un-check 'Show tabs in single row'`
-- Plugins:
-    - .ignore
-    - BashSupport
-    - HashiCorp Terraform / HCL language support
-    - Markdown support
-    - NodeJS
-
 ### Spotify
 - Keep in dock
 - Settings
-    - Music Quality
-        - Enable 'High quality streaming'
-    - Display Options
-        - Enable 'Show unavailable tracks in playlists'
     - Autoplay
         - Disable 'Autoplay similar songs when your music ends'
-    - Show Advanced Settings > Startup and Window Behaviour
-        - Set 'Open Spotify automatically after you log into the computer' to 'No' 
+    - Audio quality
+        - Set 'Streaming quality' to 'High'
+    - Show Advanced Settings > Startup and window behaviour
+        - Set 'Open Spotify automatically after you log into the computer' to 'No'
 
-### Slack
+### Webstorm
 - Keep in dock
-
-### Steam
-- Preferences > Interface:
-    - Uncheck 'Run Steam when my computer starts'
+- On start
+    - Select Darcula theme
+    - Select default plugins
+- Setup test templates
+    - Preferences > Editor > Live Templates
+- Prevent open tabs remaining on a single row
+    - Preferences > Editor > General > Editor Tabs > Appearance
+        - Un-check 'Show tabs in on row'
+- Plugins:
+    - Terraform and HCL
