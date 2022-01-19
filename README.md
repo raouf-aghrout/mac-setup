@@ -102,6 +102,11 @@ Casks
     - Terminal:
         - Check 'Unlimited scrollback'
 
+### Postman
+- Preferences
+    - Themes
+        - Select dark theme
+
 ### Slack
 - Keep in dock
 - Preferences
