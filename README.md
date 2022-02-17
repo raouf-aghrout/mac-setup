@@ -65,6 +65,7 @@ Brew
     - tfswitch
     - zsh
 - Install brew casks:
+    - caffeine 
     - discord
     - google-chrome
     - iterm2
@@ -84,6 +85,11 @@ Brew
 
 Casks
 --------
+
+### Caffeine
+- Check 'Automatically start Caffeine at login'
+- Check 'Activate Caffeine at launch'
+- Un-check 'Show this message when starting Caffeine'
 
 ### Google Chrome
 - Keep in dock
