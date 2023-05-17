@@ -17,9 +17,9 @@ System Preferences
 
 ### Displays
 - Display Settings:
-    = Resolution:
+    - Resolution:
         - Select `Scaled`
-	= Select `More Space`
+	- Select `More Space`
 - Night Shift:
     - Set 'Schedule' to 'Sunset to Sunrise'
     - Check 'Turn On Until Sunrise'
