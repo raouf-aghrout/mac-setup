@@ -13,19 +13,21 @@ System Preferences
 - Desktop:
     - Set background image
 - Screen Saver:
-    - Set ‘Start after’ to 'Never'
+    - Uncheck ‘Show screen saver after'
 
 ### Displays
-- Display:
-    - Slide display resolution to scaled for ‘More Space’
+- Display Settings:
+    = Resolution:
+        - Select `Scaled`
+	= Select `More Space`
 - Night Shift:
     - Set 'Schedule' to 'Sunset to Sunrise'
     - Check 'Turn On Until Sunrise'
 
-### Dock
+### Dock & Menu Bar
 - Remove unused apps
 - Slide ‘Size' to roughly 25%
-- Check ‘Automatically hide and show the dock’
+- Check ‘Automatically hide and show the Dock’
 - Check ‘Minimise windows into application icon'
 - Uncheck 'Show recent applications in Dock'
 
@@ -33,8 +35,6 @@ System Preferences
 - Keyboard:
     - Slide 'Key Repeat' to 'Fast'
     - Slide 'Delay Until Repeat' to 'Short'
-    - Set 'Touch Bar shows' to 'F1, F2, etc. Keys'
-    - Set 'Press and hold 🌐 ' to 'Show Control Strip' 
 
 ### Security & Privacy
 - General:
@@ -46,7 +46,7 @@ System Preferences
     - Check 'Tap to click’
     - Slide tracking speed to 5
 - Scroll & Zoom:
-    - Un-check ’Scroll direction: natural
+    - Un-check ’Scroll direction: Natural'
 - More Gestures:
     - Check ‘App Expose'
 
