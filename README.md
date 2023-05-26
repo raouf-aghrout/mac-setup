@@ -35,6 +35,7 @@ System Preferences
 - Keyboard:
     - Slide 'Key Repeat' to 'Fast'
     - Slide 'Delay Until Repeat' to 'Short'
+    - Check 'Use F1, F2, etc. keys as standard function keys' 
 
 ### Security & Privacy
 - General:
