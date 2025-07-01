@@ -6,53 +6,50 @@ Mac setup instructions for development, hopefully turn into a script.
 System Preferences
 ------------------
 
-### Bluetooth
-- Check 'Show Bluetooth in menu bar'
+### Control Centre
+- Control Centre Modules
+	- Bluetooth
+		- Set to 'Show in Menu Bar'
 
-### Desktop & Screen Saver
-- Desktop:
-    - Set background image
-- Screen Saver:
-    - Uncheck ‘Show screen saver after'
+### Wallpaper
+- Set wallpaper from 'Dynamic Wallpapers'
+- Check 'Show as screen saver'
+
+### Lock Screen
+- Start Screen Saver when inactive
+	- Set 'Start Screen Saver when inactive' to 'Never'
+	- Set 'Turn display off on battery when inactive' to 'For 5 minutes'
+	- Set 'Turn display off on power adapter when inactive' to 'For 5 minutes' 
+	- Set 'Require password...' to 'Immediately' 
 
 ### Displays
-- Display Settings:
-    - Resolution:
-        - Select 'Scaled'
+- Display Settings
         - Select 'More Space'
-- Night Shift:
-    - Set 'Schedule' to 'Sunset to Sunrise'
-    - Check 'Turn On Until Sunrise'
+	- Night Shift...
+    		- Set 'Schedule' to 'Sunset to Sunrise'
 
-### Dock & Menu Bar
+### Desktop & Dock
 - Remove unused apps
 - Slide ‘Size' to roughly 25%
-- Check ‘Automatically hide and show the Dock’
 - Check ‘Minimise windows into application icon'
-- Uncheck 'Show recent applications in Dock'
+- Check ‘Automatically hide and show the Dock’
+- Uncheck 'Show suggested and recent apps in Dock'
 
 ### Keyboard
 - Keyboard:
-    - Slide 'Key Repeat' to 'Fast'
-    - Slide 'Delay Until Repeat' to 'Short'
-    - Check 'Use F1, F2, etc. keys as standard function keys' 
+    	- Slide 'Key Repeat' to 'Fast'
+    	- Slide 'Delay Until Repeat' to 'Short'
+	- Slide 'Keyboard brightness' to roughly 25%
+    	- Touch Bar Settings...
+		- Set 'Touch Var shows' to 'F1, F2, etc. Keys'
+		- Set 'Press and hold fn key to' to 'Show Expanded Control Strip' 
 
-### Security & Privacy
-- General:
-    - Change Password...
-    - Set ‘Require password’ to ‘immediately'
-   
 ### Trackpad
-- Point & Click:
-    - Check 'Tap to click’
-    - Slide tracking speed to 5
+- Point & Click
+	- Check 'Tap to click’
+    	- Slide 'Tracking speed' to 5
 - Scroll & Zoom:
-    - Un-check ’Scroll direction: Natural'
-- More Gestures:
-    - Check ‘App Expose'
-
-### Users & Groups
-- Drag and drop profile picture
+    - Un-check ’Natural scrolling'
 
 Brew
 ----
