@@ -75,12 +75,18 @@ Git Settings
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
 
-5. Install GPG
+5. [Install Oh My Zsh theme - Powerlevel10k](https://github.com/romkatv/powerlevel10k?#oh-my-zsh)
+    ```shell
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+    ```
+    In `~/.zshrc` set `ZSH_THEME` to "powerlevel10k/powerlevel10k"
+
+6. Install GPG
     ```shell
     brew install gpg
     ```
 
-6. [Generate a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+7. [Generate a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
     ```shell
     gpg --full-generate-key
 
@@ -89,9 +95,9 @@ Git Settings
     gpg --armor --export your_gpg_key_id
     ```
 
-7. [Add the GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
+8. [Add the GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
-8. [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+9. [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
     ```shell
     git config --global user.signingkey your_gpg_key_id
 
@@ -102,7 +108,7 @@ Git Settings
     if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zshrc; else echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zprofile; fi
     ```
 
-9. Run Git setup script
+10. Run Git setup script
     ```shell
     ./git-setup.sh
     ```
