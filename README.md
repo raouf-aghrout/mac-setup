@@ -3,53 +3,44 @@ Mac Setup
 
 Mac setup instructions for development, hopefully turn into a script.
 
-System Preferences
-------------------
+System Settings
+---------------
 
 ### Control Centre
 - Control Centre Modules
-	- Bluetooth
-		- Set to 'Show in Menu Bar'
-
-### Wallpaper
-- Set wallpaper from 'Dynamic Wallpapers'
-- Check 'Show as screen saver'
+  - Set 'Bluetooth' to 'Show in Menu Bar'
 
 ### Lock Screen
-- Start Screen Saver when inactive
-	- Set 'Start Screen Saver when inactive' to 'Never'
-	- Set 'Turn display off on battery when inactive' to 'For 5 minutes'
-	- Set 'Turn display off on power adapter when inactive' to 'For 5 minutes' 
-	- Set 'Require password...' to 'Immediately' 
+- Set 'Start Screen Saver when inactive' to 'For 15 minutes'
+- Set 'Turn display off on battery when inactive' to 'For 5 minutes'
+- Set 'Turn display off on power adapter when inactive' to 'For 5 minutes' 
+- Set 'Require password after...' to 'Immediately' 
 
 ### Displays
-- Display Settings
-        - Select 'More Space'
-	- Night Shift...
-    		- Set 'Schedule' to 'Sunset to Sunrise'
+- Select 'More Space'
+- Night Shift...
+  - Set 'Schedule' to 'Sunset to Sunrise'
 
 ### Desktop & Dock
 - Remove unused apps
-- Slide ‘Size' to roughly 25%
-- Check ‘Minimise windows into application icon'
-- Check ‘Automatically hide and show the Dock’
+- Slide 'Size' to roughly 25%
+- Check 'Minimise windows into application icon'
+- Check 'Automatically hide and show the Dock'
 - Uncheck 'Show suggested and recent apps in Dock'
 
 ### Keyboard
-- Keyboard:
-    	- Slide 'Key Repeat' to 'Fast'
-    	- Slide 'Delay Until Repeat' to 'Short'
-	- Slide 'Keyboard brightness' to roughly 25%
-    	- Touch Bar Settings...
-		- Set 'Touch Var shows' to 'F1, F2, etc. Keys'
-		- Set 'Press and hold fn key to' to 'Show Expanded Control Strip' 
+- Slide 'Key Repeat' to 'Fast'
+- Slide 'Delay Until Repeat' to 'Short'
+- Keyboard Shortcuts...
+  - Function Keys
+    - Check 'Use F1, F2, etc. keys as standard function keys'
 
 ### Trackpad
 - Point & Click
-	- Check 'Tap to click’
-    	- Slide 'Tracking speed' to 5
+  - Check 'Tap to click'
+    - Slide 'Tracking speed' to 5
 - Scroll & Zoom:
-    - Un-check ’Natural scrolling'
+  - Un-check 'Natural scrolling'
 
 Brew
 ----
