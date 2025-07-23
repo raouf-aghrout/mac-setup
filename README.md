@@ -32,6 +32,8 @@ System Settings
 - Slide 'Key Repeat' to 'Fast'
 - Slide 'Delay Until Repeat' to 'Short'
 - Keyboard Shortcuts...
+  - Keyboard
+    - Set 'Move focus to next window' to 'command + `'
   - Function Keys
     - Check 'Use F1, F2, etc. keys as standard function keys'
 
