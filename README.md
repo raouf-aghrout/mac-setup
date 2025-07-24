@@ -74,6 +74,7 @@ Git Settings
     ```shell
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
+    - Change theme to 'avit'
 
 5. [Install Oh My Zsh theme - Powerlevel10k](https://github.com/romkatv/powerlevel10k?#oh-my-zsh)
     ```shell
@@ -113,100 +114,56 @@ Git Settings
     ./git-setup.sh
     ```
 
-Brew
-----
+Brew Casks
+----------
 
-### XCode
-- Installs required developer tools like Git
+1. Install Rectangle
+    ```shell
+    brew install --cask rectangle
+    ```
+   - Keep only 'Left Half', 'Right Half', 'Top Half', 'Bottom Half', 'Maximise', 'Minimise', 'Next Display' and 
+   'Previous Display' shortcuts
+   - Settings
+     - Check 'Launch on login'
 
-### Brew
-- Install brew
-- Install brew formulae:
-    - tfswitch
-    - zsh
-- Install brew casks:
-    - caffeine 
-    - discord
-    - google-chrome
-    - iterm2
-    - postman
-    - slack
-    - spectacle
-    - spotify
-    - webstorm
-
-### Oh My Zsh
-- Install Oh My Zsh
-    - Change theme to 'avit'
-
-### Git
-- Generate SSH key and add to GitHub
-- Setup config & aliases
-
-Casks
---------
-
-### Caffeine
-- Check 'Automatically start Caffeine at login'
-- Check 'Activate Caffeine at launch'
-- Un-check 'Show this message when starting Caffeine'
-
-### Google Chrome
-- Keep in dock
-- Make default browser
-- Sign into profiles
-- Sync bookmarks
-- Setup pinned tabs
-
-### iTerm2
-- Keep in dock
-- Preferences > Profiles:
-    - General:
-        - Set 'Working Directory' to 'Reuse previous session's directory'
-    - Colors:
-        - Set ‘Color Presets…’ to ‘Tango Dark'
-    - Terminal:
+2. Install iTerm2
+    ```shell
+    brew install --cask iterm2
+    ```
+    - Keep in dock
+    - Settings > Profiles
+      - General
+        - Set 'Initial directory' to 'Reuse previous session's directory'
+      - Colors
+        - Set 'Color Preset' to 'Tango Dark'
+      - Terminal
         - Check 'Unlimited scrollback'
 
-### Postman
-- Preferences
-    - Themes
-        - Select dark theme
+3. Install IntelliJ
+    ```shell
+    brew install --cask intellij-idea
+    ```
+   - Keep in dock
+   - Settings > Editor > General > Editor Tabs > Appearance
+     - Under 'Show tabs in' check 'Multiples row'
 
-### Slack
-- Keep in dock
-- Preferences
-    - Themes
-        - Select 'Dark'
-        - Colors > Select 'Nocturne'
-    - Messages & media
-        - Theme > Select 'Compact'
+4. Install Google Chrome
+    ```shell
+    brew install --cask google-chrome
+    ```
+    - Keep in dock
 
-### Spectacle
-- Preferences:
-    - Enable only 8 main short cuts
-    - Check 'Launch Spectacle at login’
-    - Rebind to Ctrl variants
+5. Install Slack:
+    ```shell
+    brew install --cask slack
+    ```
+    - Keep in dock
 
-### Spotify
-- Keep in dock
-- Settings
-    - Autoplay
-        - Disable 'Autoplay similar songs when your music ends'
-    - Audio quality
-        - Set 'Streaming quality' to 'High'
-    - Show Advanced Settings > Startup and window behaviour
-        - Set 'Open Spotify automatically after you log into the computer' to 'No'
-
-### Webstorm
-- Keep in dock
-- On start
-    - Select Darcula theme
-    - Select default plugins
-- Setup test templates
-    - Preferences > Editor > Live Templates
-- Prevent open tabs remaining on a single row
-    - Preferences > Editor > General > Editor Tabs > Appearance
-        - Un-check 'Show tabs in on row'
-- Plugins:
-    - Terraform and HCL
+6. Install Spotify:
+    ```shell
+    brew install --cask spotify
+    ```
+    - Keep in dock
+    - Settings
+      - Show Start-up and window behaviour
+        - Set 'Open Spotify automatically after you log in to the computer' to 'No'
