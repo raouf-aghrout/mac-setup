@@ -106,7 +106,7 @@ Git Settings
 
    git config --global tag.gpgSign true
 
-   if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zshrc; else echo -e '\nexport GPG_TTY=$(tty)' >> ~/.zprofile; fi
+   if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$TTY' >> ~/.zshrc; else echo -e '\nexport GPG_TTY=$TTY' >> ~/.zprofile; fi
     ```
 
 10. Run Git setup script
