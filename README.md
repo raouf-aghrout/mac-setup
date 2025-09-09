@@ -48,7 +48,7 @@ Git Settings
 ------------
 
 1. [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-    ```shell
+    ```sh
     ssh-keygen -t ed25519 -C "your_email@example.com"
 
     eval "$(ssh-agent -s)"
@@ -61,34 +61,44 @@ Git Settings
     ```
 
 2. [Add a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-    ```shell
+    ```sh
     pbcopy < ~/.ssh/id_ed25519.pub
     ```
 
 3. [Install Homebrew](https://brew.sh/)
-    ```shell
+    ```sh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
 4. [Install Oh My Zsh](https://ohmyz.sh/#install)
-    ```shell
+    ```sh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
-    - Change theme to 'avit'
+    - Install plugin 'zsh-autosuggestions'
+    ```sh
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```
+    - Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
+    ```sh
+    plugins=(
+        # other plugins...
+        zsh-autosuggestions
+    )
+    ```
 
 5. [Install Oh My Zsh theme - Powerlevel10k](https://github.com/romkatv/powerlevel10k?#oh-my-zsh)
-    ```shell
+    ```sh
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
     ```
    In `~/.zshrc` set `ZSH_THEME` to "powerlevel10k/powerlevel10k"
 
 6. Install GPG
-    ```shell
+    ```sh
     brew install gpg
     ```
 
 7. [Generate a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
-    ```shell
+    ```sh
     gpg --full-generate-key
 
     gpg --list-secret-keys --keyid-format=long
@@ -97,7 +107,7 @@ Git Settings
     ```
 
 8. Configure GPG
-    ```shell
+    ```sh
     touch ~/.gnupg/gpg-agent.conf
 
     echo "default-cache-ttl 31622400\n max-cache-ttl 31622400" >> ~/.gnupg/gpg-agent.conf
@@ -110,7 +120,7 @@ Git Settings
 9. [Add the GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
 10. [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
-    ```shell
+    ```sh
     git config --global user.signingkey your_gpg_key_id
 
     git config --global commit.gpgsign true
@@ -121,7 +131,7 @@ Git Settings
     ```
 
 11. Run Git setup script
-    ```shell
+    ```sh
     ./git-setup.sh
     ```
 
@@ -129,14 +139,14 @@ Brew Casks
 ----------
 
 1. Install Rectangle
-    ```shell
+    ```sh
     brew install --cask rectangle
     ```
    - Settings
      - Check 'Launch on login'
 
 2. Install iTerm2
-    ```shell
+    ```sh
     brew install --cask iterm2
     ```
     - Keep in dock
@@ -149,7 +159,7 @@ Brew Casks
         - Check 'Unlimited scrollback'
 
 3. Install IntelliJ
-    ```shell
+    ```sh
     brew install --cask intellij-idea
     ```
    - Keep in dock
@@ -157,19 +167,19 @@ Brew Casks
      - Under 'Show tabs in' check 'Multiples row'
 
 4. Install Google Chrome
-    ```shell
+    ```sh
     brew install --cask google-chrome
     ```
     - Keep in dock
 
 5. Install Slack:
-    ```shell
+    ```sh
     brew install --cask slack
     ```
     - Keep in dock
 
 6. Install Spotify:
-    ```shell
+    ```sh
     brew install --cask spotify
     ```
     - Keep in dock
