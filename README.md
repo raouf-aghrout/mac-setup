@@ -49,67 +49,78 @@ Git Settings
 
 1. [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
     ```shell
-   ssh-keygen -t ed25519 -C "your_email@example.com"
+    ssh-keygen -t ed25519 -C "your_email@example.com"
 
-   eval "$(ssh-agent -s)"
+    eval "$(ssh-agent -s)"
 
-   touch ~/.ssh/config
+    touch ~/.ssh/config
 
-   echo "Host github.com\n  AddKeysToAgent yes\n  UseKeychain yes\n  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
+    echo "Host github.com\n  AddKeysToAgent yes\n  UseKeychain yes\n  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
 
-   ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+    ssh-add --apple-use-keychain ~/.ssh/id_ed25519
     ```
 
 2. [Add a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
     ```shell
-   pbcopy < ~/.ssh/id_ed25519.pub
+    pbcopy < ~/.ssh/id_ed25519.pub
     ```
 
 3. [Install Homebrew](https://brew.sh/)
     ```shell
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
 4. [Install Oh My Zsh](https://ohmyz.sh/#install)
     ```shell
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
     - Change theme to 'avit'
 
 5. [Install Oh My Zsh theme - Powerlevel10k](https://github.com/romkatv/powerlevel10k?#oh-my-zsh)
     ```shell
-   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
     ```
    In `~/.zshrc` set `ZSH_THEME` to "powerlevel10k/powerlevel10k"
 
 6. Install GPG
     ```shell
-   brew install gpg
+    brew install gpg
     ```
 
 7. [Generate a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
     ```shell
-   gpg --full-generate-key
+    gpg --full-generate-key
 
-   gpg --list-secret-keys --keyid-format=long
+    gpg --list-secret-keys --keyid-format=long
 
-   gpg --armor --export your_gpg_key_id
+    gpg --armor --export your_gpg_key_id
     ```
 
-8. [Add the GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
-
-9. [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+8. Configure GPG
     ```shell
-   git config --global user.signingkey your_gpg_key_id
+    touch ~/.gnupg/gpg-agent.conf
 
-   git config --global commit.gpgsign true
+    echo "default-cache-ttl 31622400\n max-cache-ttl 31622400" >> ~/.gnupg/gpg-agent.conf
 
-   git config --global tag.gpgSign true
+    gpgconf --kill gpg-agent
 
-   if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$TTY' >> ~/.zshrc; else echo -e '\nexport GPG_TTY=$TTY' >> ~/.zprofile; fi
+    gpgconf --launch gpg-agent
     ```
 
-10. Run Git setup script
+9. [Add the GPG key to your GitHub account](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
+
+10. [Telling Git about your signing key](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
+    ```shell
+    git config --global user.signingkey your_gpg_key_id
+
+    git config --global commit.gpgsign true
+
+    git config --global tag.gpgSign true
+
+    if [ -r ~/.zshrc ]; then echo -e '\nexport GPG_TTY=$TTY' >> ~/.zshrc; else echo -e '\nexport GPG_TTY=$TTY' >> ~/.zprofile; fi
+    ```
+
+11. Run Git setup script
     ```shell
     ./git-setup.sh
     ```
