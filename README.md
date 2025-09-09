@@ -132,8 +132,6 @@ Brew Casks
     ```shell
     brew install --cask rectangle
     ```
-   - Keep only 'Left Half', 'Right Half', 'Top Half', 'Bottom Half', 'Maximise', 'Minimise', 'Next Display' and 
-   'Previous Display' shortcuts
    - Settings
      - Check 'Launch on login'
 
