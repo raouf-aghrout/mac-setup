@@ -7,21 +7,25 @@ System Settings
 ---------------
 
 ### Control Centre
+
 - Control Centre Modules
-  - Set 'Bluetooth' to 'Show in Menu Bar'
+    - Set 'Bluetooth' to 'Show in Menu Bar'
 
 ### Lock Screen
+
 - Set 'Start Screen Saver when inactive' to 'For 15 minutes'
 - Set 'Turn display off on battery when inactive' to 'For 5 minutes'
-- Set 'Turn display off on power adapter when inactive' to 'For 5 minutes' 
-- Set 'Require password after...' to 'Immediately' 
+- Set 'Turn display off on power adapter when inactive' to 'For 5 minutes'
+- Set 'Require password after...' to 'Immediately'
 
 ### Displays
+
 - Select 'More Space'
 - Night Shift...
-  - Set 'Schedule' to 'Sunset to Sunrise'
+    - Set 'Schedule' to 'Sunset to Sunrise'
 
 ### Desktop & Dock
+
 - Remove unused apps
 - Slide 'Size' to roughly 25%
 - Check 'Minimise windows into application icon'
@@ -29,20 +33,22 @@ System Settings
 - Uncheck 'Show suggested and recent apps in Dock'
 
 ### Keyboard
+
 - Slide 'Key Repeat' to 'Fast'
 - Slide 'Delay Until Repeat' to 'Short'
 - Keyboard Shortcuts...
-  - Keyboard
-    - Set 'Move focus to next window' to 'command + `'
-  - Function Keys
-    - Check 'Use F1, F2, etc. keys as standard function keys'
+    - Keyboard
+        - Set 'Move focus to next window' to 'command + `'
+    - Function Keys
+        - Check 'Use F1, F2, etc. keys as standard function keys'
 
 ### Trackpad
+
 - Point & Click
-  - Check 'Tap to click'
-    - Slide 'Tracking speed' to 5
+    - Check 'Tap to click'
+        - Slide 'Tracking speed' to 5
 - Scroll & Zoom:
-  - Un-check 'Natural scrolling'
+    - Uncheck 'Natural scrolling'
 
 Git Settings
 ------------
@@ -90,7 +96,10 @@ Git Settings
     ```sh
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
     ```
-   In `~/.zshrc` set `ZSH_THEME` to "powerlevel10k/powerlevel10k"
+   In `~/.zshrc` set `ZSH_THEME` to "powerlevel10k/powerlevel10k", then configure the theme by running:
+    ```sh
+    p10k configure
+    ```
 
 6. Install GPG
     ```sh
@@ -142,8 +151,8 @@ Brew Casks
     ```sh
     brew install --cask rectangle
     ```
-   - Settings
-     - Check 'Launch on login'
+    - Settings
+        - Check 'Launch on login'
 
 2. Install iTerm2
     ```sh
@@ -151,20 +160,22 @@ Brew Casks
     ```
     - Keep in dock
     - Settings > Profiles
-      - General
-        - Set 'Initial directory' to 'Reuse previous session's directory'
-      - Colors
-        - Set 'Color Preset' to 'Tango Dark'
-      - Terminal
-        - Check 'Unlimited scrollback'
+        - General
+            - Set 'Initial directory' to 'Reuse previous session's directory'
+        - Colors
+            - Set 'Color Preset' to 'Tango Light'
+        - Terminal
+            - Check 'Unlimited scrollback'
+            - Shell Integration
+                - Uncheck 'Show mark indicators'
 
 3. Install IntelliJ
     ```sh
     brew install --cask intellij-idea
     ```
-   - Keep in dock
-   - Settings > Editor > General > Editor Tabs > Appearance
-     - Under 'Show tabs in' check 'Multiples row'
+    - Keep in dock
+    - Settings > Editor > General > Editor Tabs > Appearance
+        - Under 'Show tabs in' check 'Multiples row'
 
 4. Install Google Chrome
     ```sh
@@ -184,5 +195,5 @@ Brew Casks
     ```
     - Keep in dock
     - Settings
-      - Show Start-up and window behaviour
-        - Set 'Open Spotify automatically after you log in to the computer' to 'No'
+        - Show Start-up and window behaviour
+            - Set 'Open Spotify automatically after you log in to the computer' to 'No'
